@@ -1,0 +1,25 @@
+{
+  "name": "draw-something",
+  "version": "0.0.0",
+  "description": "qq",
+  "main": "index.js",
+  "scripts": {
+    "test": "ww"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ee"
+  },
+  "keywords": [
+    "rr"
+  ],
+  "author": "tt",
+  "license": "zz",
+  "dependencies": {
+    "websocket": "~1.0.14",
+    "compression": "~1.2.1",
+    "serve-static": "~1.7.1",
+    "ejs": "~1.0.0",
+    "express": "~4.10.4"
+  }
+}
