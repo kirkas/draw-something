@@ -1,9 +1,8 @@
 # Draw-something repo
 
-
 ## Setup
-- Install `node` (http://nodejs.org/)
-- Install `npm` (https://github.com/npm/npm)
-- type `npm install`
-- type `nodemon server.js`
-- visit `localhost:3000` for magic
+- Install [`Node`](http://nodejs.org/)
+- Install [`Npm`](https://github.com/npm/npm)
+- type `npm install` in terminal
+- type `nodemon server.js` in terminal
+- visit [`localhost:3000`](http://localhost:3000/)
