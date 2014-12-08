@@ -17,12 +17,6 @@
   "license": "zz",
   "dependencies": {
     "websocket": "~1.0.14",
-    "compression": "~1.2.1",
-    "serve-static": "~1.7.1",
-    "ejs": "~1.0.0",
     "express": "~4.10.4"
-  },
-  "devDependencies": {
-    "nodemon": "~1.2.1"
   }
 }
