@@ -20,11 +20,11 @@ app.use(express.static(root));
 
 
 /* Route */
-app.get('/', function(req, res) {
-  res.render('index', {
-    socketPort: socketPort
-  });
-});
+// app.get('/', function(req, res) {
+//   res.render('index', {
+//     socketPort: socketPort
+//   });
+// });
 
 
 /* Server */
