@@ -1,25 +1,28 @@
 /* Dependencies */
 var express = require('express');
-var app = express();
-var root = __dirname + '/app/';
 var fs = require('fs');
 var ejs = require('ejs');
 var websocketServer = require('websocket').server;
 var http = require('http');
 
+
 /* Variable */
 var port = 3000;
 var socketPort = 3001;
+var app = express();
+var root = __dirname + '/app/';
+
 
 /* Express config */
 app.set('views', './app');
 app.set('view engine', 'ejs');
+app.use(express.static(root));
 
 
 /* Route */
-app.get('*', function(req, res) {
+app.get('/', function(req, res) {
   res.render('index', {
-    port: socketPort
+    socketPort: socketPort
   });
 });
 
